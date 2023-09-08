@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Robert Schilling</title>
+    <link>https://example.com/publication-type/1/</link>
+      <atom:link href="https://example.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>1</title>
+      <link>https://example.com/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Tag: A Hardware-Software Co-Design for Memory Safety based on Multi-Granular Memory Tagging</title>
+      <link>https://example.com/publication/19_multitag/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/19_multitag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCFI: State Machine Control-Flow Hardening Against Fault Attacks</title>
+      <link>https://example.com/publication/18_scfi/</link>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/18_scfi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SFP: Providing System Call Flow Protection against Software and Fault Attacks</title>
+      <link>https://example.com/publication/17_sfp/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/17_sfp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FIPAC: Thwarting Fault- and Software-Induced Control-Flow Attacks with ARM Pointer Authentication</title>
+      <link>https://example.com/publication/16_fipac/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/16_fipac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting Indirect Branches Against Fault Attacks Using ARM Pointer Authentication</title>
+      <link>https://example.com/publication/15_pac_ibranch/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/15_pac_ibranch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SecWalk: Protecting Page Table Walks Against Fault Attacks</title>
+      <link>https://example.com/publication/12_secwalk/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/12_secwalk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CrypTag: Thwarting Physical and Logical Memory Vulnerabilities using Cryptographically Colored Memory</title>
+      <link>https://example.com/publication/14_cryptag/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/14_cryptag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HECTOR-V: A Heterogeneous CPU Architecture for a Secure RISC-V</title>
+      <link>https://example.com/publication/13_hectorv/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/13_hectorv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ConTExT: A Generic Approach for Mitigating Spectre</title>
+      <link>https://example.com/publication/11_context/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/11_context/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting RISC-V Processors against Physical Attacks</title>
+      <link>https://example.com/publication/09_riscv_faults/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/09_riscv_faults/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Securing Conditional Branches in the Presence of Fault Attacks</title>
+      <link>https://example.com/publication/07_branches/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/07_branches/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Small Faults Grow Up - Verification of Error Masking Robustness in Arithmetically Encoded Programs</title>
+      <link>https://example.com/publication/10_faults_grow/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/10_faults_grow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pointing in the Right Direction - Securing Memory Accesses in a Faulty World</title>
+      <link>https://example.com/publication/06_pointing/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/06_pointing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High Speed ASIC Implementations of Leakage-Resilient Cryptography</title>
+      <link>https://example.com/publication/08_fulmine_lr/</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/08_fulmine_lr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leakage Bounds for Gaussian Side Channels</title>
+      <link>https://example.com/publication/03_leakage/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/03_leakage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transparent Memory Encryption and Authentication</title>
+      <link>https://example.com/publication/02_memsec/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/02_memsec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Core Data Analytics SoC with a Flexible 1.76 Gbit/s AES-XTS Cryptographic Accelerator in 65 nm CMOS</title>
+      <link>https://example.com/publication/04_fulmine_xts/</link>
+      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/04_fulmine_xts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Low-Area ASIC Implementation of AEGIS128—A fast Authenticated Encryption Algorithm</title>
+      <link>https://example.com/publication/01_aegis/</link>
+      <pubDate>Fri, 07 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/01_aegis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
