@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert Schilling</title>
+    <link>https://www.schilling.casa/</link>
+      <atom:link href="https://www.schilling.casa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robert Schilling</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.schilling.casa/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Robert Schilling</title>
+      <link>https://www.schilling.casa/</link>
+    </image>
+    
+    <item>
+      <title>Migrating a Silicon Root of Trust to Post-Quantum Crypto</title>
+      <link>https://www.schilling.casa/talk/migrating-a-silicon-root-of-trust-to-post-quantum-crypto/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/talk/migrating-a-silicon-root-of-trust-to-post-quantum-crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAULTLESS: Flexible and Transparent Fault Protection for Superscalar RISC-V Processors</title>
+      <link>https://www.schilling.casa/publication/21_faultless/</link>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/21_faultless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenTitan Integrated: A RISC-V Open-Source Silicon Root-of-Trust for Large SoCs</title>
+      <link>https://www.schilling.casa/talk/opentitan-integrated-a-risc-v-open-source-silicon-root-of-trust-for-large-socs/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/talk/opentitan-integrated-a-risc-v-open-source-silicon-root-of-trust-for-large-socs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security Research — CVEs</title>
+      <link>https://www.schilling.casa/cves/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/cves/</guid>
+      <description>&lt;p&gt;Active participant in the &lt;a href=&#34;https://hackerone.com/xanbanx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitLab Bug Bounty Program on HackerOne&lt;/a&gt;, with &lt;strong&gt;42 CVEs&lt;/strong&gt; discovered across access control, information disclosure, XSS, and authentication bypass categories.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVE&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;GitLab Release&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2021-39898&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2021-39898&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Project export leaked external webhook token&lt;/td&gt;
+&lt;td&gt;14.4.1&lt;/td&gt;
+&lt;td&gt;2021-10-28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-13301&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-13301&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Stored XSS on standalone vulnerability page&lt;/td&gt;
+&lt;td&gt;13.3.3&lt;/td&gt;
+&lt;td&gt;2020-09-02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-13307&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-13307&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Sessions not revoked on 2FA activation&lt;/td&gt;
+&lt;td&gt;13.3.3&lt;/td&gt;
+&lt;td&gt;2020-09-02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-13297&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-13297&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2FA for groups bypass via API&lt;/td&gt;
+&lt;td&gt;13.3.3&lt;/td&gt;
+&lt;td&gt;2020-09-02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-13326&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-13326&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;GitHub project import restriction bypass via API&lt;/td&gt;
+&lt;td&gt;13.1.2&lt;/td&gt;
+&lt;td&gt;2020-07-01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-13264&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-13264&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Kubernetes cluster token visible to other group maintainers&lt;/td&gt;
+&lt;td&gt;13.0.1&lt;/td&gt;
+&lt;td&gt;2020-05-27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-13267&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-13267&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Stored XSS on Metrics Dashboard&lt;/td&gt;
+&lt;td&gt;13.0.1&lt;/td&gt;
+&lt;td&gt;2020-05-27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-13261&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-13261&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Amazon EKS credentials disclosed in HTML source&lt;/td&gt;
+&lt;td&gt;13.0.1&lt;/td&gt;
+&lt;td&gt;2020-05-27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-12452&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-12452&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;API call could make admin audit log inaccessible&lt;/td&gt;
+&lt;td&gt;12.10.2&lt;/td&gt;
+&lt;td&gt;2020-04-30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-10979&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-10979&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Restricted CI pipeline metrics visible to members&lt;/td&gt;
+&lt;td&gt;12.9.1&lt;/td&gt;
+&lt;td&gt;2020-03-26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-10976&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-10976&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Restricted pipeline status leaked via MR widget&lt;/td&gt;
+&lt;td&gt;12.9.1&lt;/td&gt;
+&lt;td&gt;2020-03-26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-10092&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-10092&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;XSS in Grafana integration view&lt;/td&gt;
+&lt;td&gt;12.8.2&lt;/td&gt;
+&lt;td&gt;2020-03-04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-8113&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-8113&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Docker registry improperly accessible via deploy tokens&lt;/td&gt;
+&lt;td&gt;12.8.2&lt;/td&gt;
+&lt;td&gt;2020-03-04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-10085&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-10085&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Private MR titles exposed via widget&lt;/td&gt;
+&lt;td&gt;12.8.2&lt;/td&gt;
+&lt;td&gt;2020-03-04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-7969&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-7969&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Unexpired Todos disclosed confidential issues/MRs&lt;/td&gt;
+&lt;td&gt;12.7.4&lt;/td&gt;
+&lt;td&gt;2020-01-30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2020-7976&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2020-7976&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Grafana token displayed in plaintext&lt;/td&gt;
+&lt;td&gt;12.7.4&lt;/td&gt;
+&lt;td&gt;2020-01-30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-20143&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-20143&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Unauthenticated access to release milestones/issues&lt;/td&gt;
+&lt;td&gt;12.6.2&lt;/td&gt;
+&lt;td&gt;2020-01-02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-19087&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-19087&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Restricted project comments guessable via Elasticsearch&lt;/td&gt;
+&lt;td&gt;12.5.1&lt;/td&gt;
+&lt;td&gt;2019-11-27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-19314&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-19314&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Tokens stored in plaintext (now encrypted)&lt;/td&gt;
+&lt;td&gt;12.5.1&lt;/td&gt;
+&lt;td&gt;2019-11-27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-18456&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-18456&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Private comments disclosed via Elasticsearch group search&lt;/td&gt;
+&lt;td&gt;12.4.1&lt;/td&gt;
+&lt;td&gt;2019-10-30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-15591&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-15591&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Container/dependency scanning reports visible despite disabled public pipelines&lt;/td&gt;
+&lt;td&gt;12.3.3&lt;/td&gt;
+&lt;td&gt;2019-10-02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-15580&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-15580&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Unauthenticated head pipeline data disclosure via blocking MRs&lt;/td&gt;
+&lt;td&gt;12.3.2&lt;/td&gt;
+&lt;td&gt;2019-09-30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-15729&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-15729&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Internal endpoint disclosed last MR pipeline info&lt;/td&gt;
+&lt;td&gt;12.2.3&lt;/td&gt;
+&lt;td&gt;2019-08-29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-15727&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-15727&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;CI results exposed to unauthorized users&lt;/td&gt;
+&lt;td&gt;12.2.3&lt;/td&gt;
+&lt;td&gt;2019-08-29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-15724&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-15724&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;HTML injection in label descriptions&lt;/td&gt;
+&lt;td&gt;12.2.3&lt;/td&gt;
+&lt;td&gt;2019-08-29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-15723&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-15723&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Push rules bypass&lt;/td&gt;
+&lt;td&gt;12.2.3&lt;/td&gt;
+&lt;td&gt;2019-08-29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-5463&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-5463&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;CI badge images disclosed build status&lt;/td&gt;
+&lt;td&gt;12.1.2&lt;/td&gt;
+&lt;td&gt;2019-07-29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-13002&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-13002&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Unauthorized read of last MR pipeline info&lt;/td&gt;
+&lt;td&gt;12.0.3&lt;/td&gt;
+&lt;td&gt;2019-07-03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-13005&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-13005&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;GraphQL disclosed restricted user/group/repo metadata&lt;/td&gt;
+&lt;td&gt;12.0.3&lt;/td&gt;
+&lt;td&gt;2019-07-03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-13006&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-13006&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Related MR count visible without repo access&lt;/td&gt;
+&lt;td&gt;12.0.3&lt;/td&gt;
+&lt;td&gt;2019-07-03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-12431&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-12431&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Restricted users could access private milestone metadata via Search API&lt;/td&gt;
+&lt;td&gt;11.11.1&lt;/td&gt;
+&lt;td&gt;2019-06-03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-11545&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-11545&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Private project namespace leaked when moving issues&lt;/td&gt;
+&lt;td&gt;11.10.2&lt;/td&gt;
+&lt;td&gt;2019-04-29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-10115&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-10115&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Guest users could access release details&lt;/td&gt;
+&lt;td&gt;11.9.4&lt;/td&gt;
+&lt;td&gt;2019-04-01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-9890&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-9890&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Permissions issue on commit discussions/notes&lt;/td&gt;
+&lt;td&gt;11.8.1&lt;/td&gt;
+&lt;td&gt;2019-03-04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-7353&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-7353&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Releases disclosed confidential issue/MR titles&lt;/td&gt;
+&lt;td&gt;11.7.4&lt;/td&gt;
+&lt;td&gt;2019-02-05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-6997&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-6997&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Guest could view MR titles via system notes&lt;/td&gt;
+&lt;td&gt;11.7.3&lt;/td&gt;
+&lt;td&gt;2019-01-31&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-6794&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-6794&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Guest could view last commit status of default branch&lt;/td&gt;
+&lt;td&gt;11.7.3&lt;/td&gt;
+&lt;td&gt;2019-01-31&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-6960&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-6960&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Internal wiki accessible when external wiki enabled&lt;/td&gt;
+&lt;td&gt;11.7.3&lt;/td&gt;
+&lt;td&gt;2019-01-31&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2019-7549&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2019-7549&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Unauthorized pipeline job info disclosure&lt;/td&gt;
+&lt;td&gt;11.7.3&lt;/td&gt;
+&lt;td&gt;2019-01-31&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2018-20492&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2018-20492&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Improper access control in todos — access to confidential issues/MRs&lt;/td&gt;
+&lt;td&gt;11.6.1&lt;/td&gt;
+&lt;td&gt;2018-12-31&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2018-20494&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2018-20494&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Guest users could access CI job info via API&lt;/td&gt;
+&lt;td&gt;11.6.1&lt;/td&gt;
+&lt;td&gt;2018-12-31&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cve.org/CVERecord?id=CVE-2018-19493&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2018-19493&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Persistent XSS on Environments page&lt;/td&gt;
+&lt;td&gt;11.5.1&lt;/td&gt;
+&lt;td&gt;2018-11-28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hardware Extensions and Compiler Support for Protection Against Fault Attacks</title>
+      <link>https://www.schilling.casa/publication/20_thesis/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/20_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Tag: A Hardware-Software Co-Design for Memory Safety based on Multi-Granular Memory Tagging</title>
+      <link>https://www.schilling.casa/publication/19_multitag/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/19_multitag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCFI: State Machine Control-Flow Hardening Against Fault Attacks</title>
+      <link>https://www.schilling.casa/publication/18_scfi/</link>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/18_scfi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SFP: Providing System Call Flow Protection against Software and Fault Attacks</title>
+      <link>https://www.schilling.casa/publication/17_sfp/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/17_sfp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FIPAC: Thwarting Fault- and Software-Induced Control-Flow Attacks with ARM Pointer Authentication</title>
+      <link>https://www.schilling.casa/publication/16_fipac/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/16_fipac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting Indirect Branches Against Fault Attacks Using ARM Pointer Authentication</title>
+      <link>https://www.schilling.casa/publication/15_pac_ibranch/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/15_pac_ibranch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SecWalk: Protecting Page Table Walks Against Fault Attacks</title>
+      <link>https://www.schilling.casa/publication/12_secwalk/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/12_secwalk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CrypTag: Thwarting Physical and Logical Memory Vulnerabilities using Cryptographically Colored Memory</title>
+      <link>https://www.schilling.casa/publication/14_cryptag/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/14_cryptag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HECTOR-V: A Heterogeneous CPU Architecture for a Secure RISC-V</title>
+      <link>https://www.schilling.casa/publication/13_hectorv/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/13_hectorv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ConTExT: A Generic Approach for Mitigating Spectre</title>
+      <link>https://www.schilling.casa/publication/11_context/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/11_context/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting RISC-V Processors against Physical Attacks</title>
+      <link>https://www.schilling.casa/publication/09_riscv_faults/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/09_riscv_faults/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Securing Conditional Branches in the Presence of Fault Attacks</title>
+      <link>https://www.schilling.casa/publication/07_branches/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/07_branches/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Small Faults Grow Up - Verification of Error Masking Robustness in Arithmetically Encoded Programs</title>
+      <link>https://www.schilling.casa/publication/10_faults_grow/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/10_faults_grow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pointing in the Right Direction - Securing Memory Accesses in a Faulty World</title>
+      <link>https://www.schilling.casa/publication/06_pointing/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/06_pointing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High Speed ASIC Implementations of Leakage-Resilient Cryptography</title>
+      <link>https://www.schilling.casa/publication/08_fulmine_lr/</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/08_fulmine_lr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leakage Bounds for Gaussian Side Channels</title>
+      <link>https://www.schilling.casa/publication/03_leakage/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/03_leakage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An IoT Endpoint System-on-Chip for Secure and Energy-Efficient Near-Sensor Analytics</title>
+      <link>https://www.schilling.casa/publication/05_fulmine_iot/</link>
+      <pubDate>Sun, 24 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/05_fulmine_iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transparent Memory Encryption and Authentication</title>
+      <link>https://www.schilling.casa/publication/02_memsec/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/02_memsec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Core Data Analytics SoC with a Flexible 1.76 Gbit/s AES-XTS Cryptographic Accelerator in 65 nm CMOS</title>
+      <link>https://www.schilling.casa/publication/04_fulmine_xts/</link>
+      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/04_fulmine_xts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Low-Area ASIC Implementation of AEGIS128—A fast Authenticated Encryption Algorithm</title>
+      <link>https://www.schilling.casa/publication/01_aegis/</link>
+      <pubDate>Fri, 07 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/publication/01_aegis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.schilling.casa/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

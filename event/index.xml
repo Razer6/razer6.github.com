@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Robert Schilling</title>
+    <link>https://www.schilling.casa/event/</link>
+      <atom:link href="https://www.schilling.casa/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.schilling.casa/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://www.schilling.casa/event/</link>
+    </image>
+    
+    <item>
+      <title>Migrating a Silicon Root of Trust to Post-Quantum Crypto</title>
+      <link>https://www.schilling.casa/talk/migrating-a-silicon-root-of-trust-to-post-quantum-crypto/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/talk/migrating-a-silicon-root-of-trust-to-post-quantum-crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenTitan Integrated: A RISC-V Open-Source Silicon Root-of-Trust for Large SoCs</title>
+      <link>https://www.schilling.casa/talk/opentitan-integrated-a-risc-v-open-source-silicon-root-of-trust-for-large-socs/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.schilling.casa/talk/opentitan-integrated-a-risc-v-open-source-silicon-root-of-trust-for-large-socs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

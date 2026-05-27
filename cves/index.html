@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: May 27, 2026 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.0f229d4b7ebad1917a9a357cba2effab.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Robert Schilling" />
+
+
+
+
+
+  
+
+<meta name="description" content="Active participant in the GitLab Bug Bounty Program on HackerOne, with 42 CVEs discovered across access control, information disclosure, XSS, and authentication bypass categories.
+CVE Description GitLab Release Date CVE-2021-39898 Project export leaked external webhook token 14." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://www.schilling.casa/cves/" />
+<link rel="canonical" href="https://www.schilling.casa/cves/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://www.schilling.casa/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Robert Schilling" />
+<meta property="og:url" content="https://www.schilling.casa/cves/" />
+<meta property="og:title" content="Security Research — CVEs | Robert Schilling" />
+<meta property="og:description" content="Active participant in the GitLab Bug Bounty Program on HackerOne, with 42 CVEs discovered across access control, information disclosure, XSS, and authentication bypass categories.
+CVE Description GitLab Release Date CVE-2021-39898 Project export leaked external webhook token 14." /><meta property="og:image" content="https://www.schilling.casa/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2024-01-01T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2024-01-01T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Security Research — CVEs | Robert Schilling</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="89e3c6910c5f179b9fc11ca52ce2d72f" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Robert Schilling</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Robert Schilling</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>Experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#security-research"><span>Security Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/cv_robert_schilling.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Security Research — CVEs</h1>
+
+  
+  <p class="page-subtitle">42 CVEs discovered in GitLab via the HackerOne Bug Bounty Program</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Robert Schilling</span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Active participant in the <a href="https://hackerone.com/xanbanx" target="_blank" rel="noopener">GitLab Bug Bounty Program on HackerOne</a>, with <strong>42 CVEs</strong> discovered across access control, information disclosure, XSS, and authentication bypass categories.</p>
+<table>
+<thead>
+<tr>
+<th>CVE</th>
+<th>Description</th>
+<th>GitLab Release</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2021-39898" target="_blank" rel="noopener">CVE-2021-39898</a></td>
+<td>Project export leaked external webhook token</td>
+<td>14.4.1</td>
+<td>2021-10-28</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-13301" target="_blank" rel="noopener">CVE-2020-13301</a></td>
+<td>Stored XSS on standalone vulnerability page</td>
+<td>13.3.3</td>
+<td>2020-09-02</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-13307" target="_blank" rel="noopener">CVE-2020-13307</a></td>
+<td>Sessions not revoked on 2FA activation</td>
+<td>13.3.3</td>
+<td>2020-09-02</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-13297" target="_blank" rel="noopener">CVE-2020-13297</a></td>
+<td>2FA for groups bypass via API</td>
+<td>13.3.3</td>
+<td>2020-09-02</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-13326" target="_blank" rel="noopener">CVE-2020-13326</a></td>
+<td>GitHub project import restriction bypass via API</td>
+<td>13.1.2</td>
+<td>2020-07-01</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-13264" target="_blank" rel="noopener">CVE-2020-13264</a></td>
+<td>Kubernetes cluster token visible to other group maintainers</td>
+<td>13.0.1</td>
+<td>2020-05-27</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-13267" target="_blank" rel="noopener">CVE-2020-13267</a></td>
+<td>Stored XSS on Metrics Dashboard</td>
+<td>13.0.1</td>
+<td>2020-05-27</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-13261" target="_blank" rel="noopener">CVE-2020-13261</a></td>
+<td>Amazon EKS credentials disclosed in HTML source</td>
+<td>13.0.1</td>
+<td>2020-05-27</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-12452" target="_blank" rel="noopener">CVE-2020-12452</a></td>
+<td>API call could make admin audit log inaccessible</td>
+<td>12.10.2</td>
+<td>2020-04-30</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-10979" target="_blank" rel="noopener">CVE-2020-10979</a></td>
+<td>Restricted CI pipeline metrics visible to members</td>
+<td>12.9.1</td>
+<td>2020-03-26</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-10976" target="_blank" rel="noopener">CVE-2020-10976</a></td>
+<td>Restricted pipeline status leaked via MR widget</td>
+<td>12.9.1</td>
+<td>2020-03-26</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-10092" target="_blank" rel="noopener">CVE-2020-10092</a></td>
+<td>XSS in Grafana integration view</td>
+<td>12.8.2</td>
+<td>2020-03-04</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-8113" target="_blank" rel="noopener">CVE-2020-8113</a></td>
+<td>Docker registry improperly accessible via deploy tokens</td>
+<td>12.8.2</td>
+<td>2020-03-04</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-10085" target="_blank" rel="noopener">CVE-2020-10085</a></td>
+<td>Private MR titles exposed via widget</td>
+<td>12.8.2</td>
+<td>2020-03-04</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-7969" target="_blank" rel="noopener">CVE-2020-7969</a></td>
+<td>Unexpired Todos disclosed confidential issues/MRs</td>
+<td>12.7.4</td>
+<td>2020-01-30</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2020-7976" target="_blank" rel="noopener">CVE-2020-7976</a></td>
+<td>Grafana token displayed in plaintext</td>
+<td>12.7.4</td>
+<td>2020-01-30</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-20143" target="_blank" rel="noopener">CVE-2019-20143</a></td>
+<td>Unauthenticated access to release milestones/issues</td>
+<td>12.6.2</td>
+<td>2020-01-02</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-19087" target="_blank" rel="noopener">CVE-2019-19087</a></td>
+<td>Restricted project comments guessable via Elasticsearch</td>
+<td>12.5.1</td>
+<td>2019-11-27</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-19314" target="_blank" rel="noopener">CVE-2019-19314</a></td>
+<td>Tokens stored in plaintext (now encrypted)</td>
+<td>12.5.1</td>
+<td>2019-11-27</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-18456" target="_blank" rel="noopener">CVE-2019-18456</a></td>
+<td>Private comments disclosed via Elasticsearch group search</td>
+<td>12.4.1</td>
+<td>2019-10-30</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-15591" target="_blank" rel="noopener">CVE-2019-15591</a></td>
+<td>Container/dependency scanning reports visible despite disabled public pipelines</td>
+<td>12.3.3</td>
+<td>2019-10-02</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-15580" target="_blank" rel="noopener">CVE-2019-15580</a></td>
+<td>Unauthenticated head pipeline data disclosure via blocking MRs</td>
+<td>12.3.2</td>
+<td>2019-09-30</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-15729" target="_blank" rel="noopener">CVE-2019-15729</a></td>
+<td>Internal endpoint disclosed last MR pipeline info</td>
+<td>12.2.3</td>
+<td>2019-08-29</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-15727" target="_blank" rel="noopener">CVE-2019-15727</a></td>
+<td>CI results exposed to unauthorized users</td>
+<td>12.2.3</td>
+<td>2019-08-29</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-15724" target="_blank" rel="noopener">CVE-2019-15724</a></td>
+<td>HTML injection in label descriptions</td>
+<td>12.2.3</td>
+<td>2019-08-29</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-15723" target="_blank" rel="noopener">CVE-2019-15723</a></td>
+<td>Push rules bypass</td>
+<td>12.2.3</td>
+<td>2019-08-29</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-5463" target="_blank" rel="noopener">CVE-2019-5463</a></td>
+<td>CI badge images disclosed build status</td>
+<td>12.1.2</td>
+<td>2019-07-29</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-13002" target="_blank" rel="noopener">CVE-2019-13002</a></td>
+<td>Unauthorized read of last MR pipeline info</td>
+<td>12.0.3</td>
+<td>2019-07-03</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-13005" target="_blank" rel="noopener">CVE-2019-13005</a></td>
+<td>GraphQL disclosed restricted user/group/repo metadata</td>
+<td>12.0.3</td>
+<td>2019-07-03</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-13006" target="_blank" rel="noopener">CVE-2019-13006</a></td>
+<td>Related MR count visible without repo access</td>
+<td>12.0.3</td>
+<td>2019-07-03</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-12431" target="_blank" rel="noopener">CVE-2019-12431</a></td>
+<td>Restricted users could access private milestone metadata via Search API</td>
+<td>11.11.1</td>
+<td>2019-06-03</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-11545" target="_blank" rel="noopener">CVE-2019-11545</a></td>
+<td>Private project namespace leaked when moving issues</td>
+<td>11.10.2</td>
+<td>2019-04-29</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-10115" target="_blank" rel="noopener">CVE-2019-10115</a></td>
+<td>Guest users could access release details</td>
+<td>11.9.4</td>
+<td>2019-04-01</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-9890" target="_blank" rel="noopener">CVE-2019-9890</a></td>
+<td>Permissions issue on commit discussions/notes</td>
+<td>11.8.1</td>
+<td>2019-03-04</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-7353" target="_blank" rel="noopener">CVE-2019-7353</a></td>
+<td>Releases disclosed confidential issue/MR titles</td>
+<td>11.7.4</td>
+<td>2019-02-05</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-6997" target="_blank" rel="noopener">CVE-2019-6997</a></td>
+<td>Guest could view MR titles via system notes</td>
+<td>11.7.3</td>
+<td>2019-01-31</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-6794" target="_blank" rel="noopener">CVE-2019-6794</a></td>
+<td>Guest could view last commit status of default branch</td>
+<td>11.7.3</td>
+<td>2019-01-31</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-6960" target="_blank" rel="noopener">CVE-2019-6960</a></td>
+<td>Internal wiki accessible when external wiki enabled</td>
+<td>11.7.3</td>
+<td>2019-01-31</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2019-7549" target="_blank" rel="noopener">CVE-2019-7549</a></td>
+<td>Unauthorized pipeline job info disclosure</td>
+<td>11.7.3</td>
+<td>2019-01-31</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2018-20492" target="_blank" rel="noopener">CVE-2018-20492</a></td>
+<td>Improper access control in todos — access to confidential issues/MRs</td>
+<td>11.6.1</td>
+<td>2018-12-31</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2018-20494" target="_blank" rel="noopener">CVE-2018-20494</a></td>
+<td>Guest users could access CI job info via API</td>
+<td>11.6.1</td>
+<td>2018-12-31</td>
+</tr>
+<tr>
+<td><a href="https://www.cve.org/CVERecord?id=CVE-2018-19493" target="_blank" rel="noopener">CVE-2018-19493</a></td>
+<td>Persistent XSS on Environments page</td>
+<td>11.5.1</td>
+<td>2018-11-28</td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.schilling.casa%2Fcves%2F&amp;text=Security&#43;Research&#43;%E2%80%94&#43;CVEs" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.schilling.casa%2Fcves%2F&amp;t=Security&#43;Research&#43;%E2%80%94&#43;CVEs" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Security%20Research%20%E2%80%94%20CVEs&amp;body=https%3A%2F%2Fwww.schilling.casa%2Fcves%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.schilling.casa%2Fcves%2F&amp;title=Security&#43;Research&#43;%E2%80%94&#43;CVEs" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Security&#43;Research&#43;%E2%80%94&#43;CVEs%20https%3A%2F%2Fwww.schilling.casa%2Fcves%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.schilling.casa%2Fcves%2F&amp;title=Security&#43;Research&#43;%E2%80%94&#43;CVEs" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.2874310ae8b20e08948b8e82aa4b36db.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
